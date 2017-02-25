@@ -37,10 +37,9 @@ p {text-indent: 2em;}
 article,section,aside {
 	font-size: 14px;
 	background-color: #fff;
-	border-right: 2px solid #7A7A7A;
-	border-bottom: 2px solid #7A7A7A;
 	margin: 20px;
 	padding: 20px;
+	box-shadow: 3px 3px 2px gray;
 	overflow: hidden;
 }
 /*picture*/
