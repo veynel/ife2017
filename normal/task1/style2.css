@@ -18,8 +18,6 @@ span {
 	font-size: 14px;
 	background-position: 0 0;
 	padding-left: 20px;
-	/*利用2d转换过渡，未设置兼容性*/
-	transition: background 0.01s;
 }
 .checkbox label {
 	background-image: url(checkbox.png);
@@ -27,7 +25,6 @@ span {
 	font-size: 14px;
 	background-position: 0 0;
 	padding-left: 20px;
-	transition: background 0.01s
 }
     /*伪类*/
 input[type="radio"]:checked + label {
