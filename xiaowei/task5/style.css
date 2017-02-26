@@ -1,4 +1,8 @@
-body {background-color: #C9C9C9;}
+body {
+	background-color: #C9C9C9;
+    padding: 0;
+    margin: 0;
+}
 /*header*/
 header {
 	width: 100%;
