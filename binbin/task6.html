@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>task6</title>
+</head>
+<body>
+    <textarea id="text1" cols="40" rows="10" placeholder="输入文章"></textarea>
+    <input type="text" id="search-text" placeholder="输入需要查询的文字">
+    <input type="button" value="查询" id="search-bar" onclick="search()">
+<script>
+    function search() {
+    var x = document.getElementById("text1");
+    var text1 = x.value;
+    var ss = text1.split(/\W/);
+    var reg1 = document.getElementById("search-text").value;
+
+        for (var i = 0; i<ss.length; i++) {
+            if (ss[i].match(reg1)) {
+               var y = ss[i];
+            }
+
+        }
+
+    };
+</script>
+</body>
+</html>
