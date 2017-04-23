@@ -69,7 +69,7 @@
 function plusn() {//判断是否为数字
     var maxlen = document.getElementById("display").childNodes.length;//大于等于60停止
     if (maxlen >= 20) {
-        alert("最多60个");
+        alert("最多20个");
         return false;
     };
     var Num = document.getElementById("insert").value;
@@ -83,7 +83,7 @@ function plusn() {//判断是否为数字
            var lchild = outDivNode.lastChild;
            lchild.style.height = Num+"px";
            var X = 105 - Num;
-           lchild.style.marginTop = X + "px"; 
+           lchild.style.marginTop = X + "px";
        }
        else {
            alert("请输入10-100以内的数字！");
@@ -142,7 +142,7 @@ function reSort() {//排序
     for (var i = 0;i<innerDivNodes.length;i++) {
         innerDivNodes[i].style.height = divlist[i]+"px";//动态设置高度
         var X = 105 - divlist[i];//为了使底部对齐。采取反选的方法
-        innerDivNodes[i].style.marginTop = X + "px"; 
+        innerDivNodes[i].style.marginTop = X + "px";
     };
 };
 function clickdel(divNode) {//点击方法
