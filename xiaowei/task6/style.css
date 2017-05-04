@@ -21,8 +21,10 @@ header {
 	position: relative;
 }
 .logo span {
-	font-size: 12px;
+	font-size: 36px;
 	font-family: "黑体";
+    text-align: center;
+    line-height: 60px;
 	color: #ffffff;
 	position: absolute;
 	bottom: 0;
